@@ -75,3 +75,10 @@ C:\Users\shali\OneDrive\Desktop\DotNet Project\aspTest\aspTest\obj\Debug\netcore
 C:\Users\shali\OneDrive\Desktop\DotNet Project\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\student\Edit.g.cshtml.cs
 C:\Users\shali\OneDrive\Desktop\DotNet Project\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\student\Details.g.cshtml.cs
 C:\Users\shali\OneDrive\Desktop\DotNet Project\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\Teacher\Details.g.cshtml.cs
+C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\student\Details.g.cshtml.cs
+C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\student\Edit.g.cshtml.cs
+C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\Teacher\Create.g.cshtml.cs
+C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\Teacher\Delete.g.cshtml.cs
+C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\Teacher\Details.g.cshtml.cs
+C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\Teacher\Edit.g.cshtml.cs
+C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\Teacher\Index.g.cshtml.cs

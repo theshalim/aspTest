@@ -12628,11 +12628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shali\\OneDrive\\Desktop\\DotNet Project\\aspTest\\aspTest\\aspTest.csproj",
+      "projectUniqueName": "C:\\Users\\shali\\OneDrive\\Desktop\\aspTest\\aspTest\\aspTest.csproj",
       "projectName": "aspTest",
-      "projectPath": "C:\\Users\\shali\\OneDrive\\Desktop\\DotNet Project\\aspTest\\aspTest\\aspTest.csproj",
+      "projectPath": "C:\\Users\\shali\\OneDrive\\Desktop\\aspTest\\aspTest\\aspTest.csproj",
       "packagesPath": "C:\\Users\\shali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shali\\OneDrive\\Desktop\\DotNet Project\\aspTest\\aspTest\\obj\\",
+      "outputPath": "C:\\Users\\shali\\OneDrive\\Desktop\\aspTest\\aspTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
