@@ -8,6 +8,8 @@
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -15,6 +17,33 @@
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
+    <style>
+        .sideNav{
+            height:100%;
+            width:90px;
+            position:fixed;
+            overflow-x: hidden;
+            z-index:1;
+            background-color:#333;
+            padding-top:0;
+            margin-top:0px;
+
+
+        }
+        .sideNav a{
+            text-decoration:none;
+            font-size:30px;
+            color:#818181;
+            display:block;
+            padding: 10px 18px 6px ;
+        }
+        .sideNav a:hover{
+            color:#f1f1f1;
+        }
+        .active {
+            background-color:#444;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -30,22 +59,37 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                    <li><a asp-area="" asp-controller="student" asp-action="Index">Student</a></li>
-                    <li><a asp-area="" asp-controller="Teacher" asp-action="Index">Teacher</a></li>
+                    
                 </ul>
             </div>
         </div>
     </nav>
- 
+    <div class="sideNav">
+        <a class="active" href="#"></a>
+        <a href="#"><i class="fa fa-search"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <a href="#"><i class="fa fa-trash"></i></a>
+        <a asp-area="" asp-controller="Home" asp-action="Index" class="a active"><i class="fa fa-home"></i></a>
+        <a asp-area="" asp-controller="student" asp-action="Index" class="a"><i class="fa fa-home"></i></a>
+        <a asp-area="" asp-controller="Teacher" asp-action="Index" class="a"><i class="fa fa-home"></i></a>
+    </div>
 
     <partial name="_CookieConsentPartial" />
 
     <div class="container body-content">
         @RenderBody()
         <hr />
+        
+
+
+
+
+
+
         <footer class="footer-fixed-bottom">
             <p>&copy; 2022 - aspTest</p>
         </footer>
