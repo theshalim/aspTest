@@ -82,3 +82,5 @@ C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Vi
 C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\Teacher\Details.g.cshtml.cs
 C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\Teacher\Edit.g.cshtml.cs
 C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Views\Teacher\Index.g.cshtml.cs
+C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Areas\Test\Views\Home\Index.g.cshtml.cs
+C:\Users\shali\OneDrive\Desktop\aspTest\aspTest\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Home\Index.g.cshtml.cs
